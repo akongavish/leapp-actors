@@ -4,16 +4,19 @@
 ---
 
 # How to write actors
+---------------------
 
 See the tutorial for [creating the first actor](https://leapp.readthedocs.io/en/latest/first-actor.html).
 
 # How to write actor tests
+--------------------------
 
 Please read documentation about [how to unit test actors](https://leapp.readthedocs.io/en/latest/unit-testing.html).
 
 # How to install dependencies, run tests & execute actors
 
 ## Installing actor dependencies
+--------------------------------
 
 Each actor can now have its own Makefile with the `install-deps` target. This
 takes care of installing any dependencies of your actor. If your actor has
@@ -28,7 +31,7 @@ $ make install-deps
 ```
 
 ## Running tests locally
-
+------------------------
 To run all tests from leapp-actors, run the following code from
 the `leapp-actors` directory:
 
@@ -43,6 +46,7 @@ $ make test REPORT=report.xml
 ```
 
 ## Registering Leapp repositories and executing actors
+------------------------------------------------------
 
 When you want to execute actor with
 
